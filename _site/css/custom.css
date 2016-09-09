@@ -24,7 +24,7 @@ footer, .navbar-custom{
 }
 
 section {
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 /*.intro-header{
@@ -36,17 +36,15 @@ section {
 }*/
 
 .container.split-header{
-  /*width: 100%;*/
-  margin-top: 90px;
-  padding-top: 50px;
-  min-height: 450px;
+  padding-top: 140px;
+  min-height: 500px;
   
 }
 
 .engine-bg{
   background: url("/img/bg3.jpg") no-repeat center;
   background-size: 100% auto;
-  min-height: 290px;
+  min-height: 330px;
 }
 
 .main-headline {
@@ -61,8 +59,19 @@ section {
   background-color: rgb(83, 148, 221);
 }
 
+.btn-superlg {
+  padding: 14px 20px;
+  font-size: 26px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
 .main-cta {
   margin-top:60px;
+}
+
+.main-cta .btn{
+  width: 220px;
 }
 
 .blue-highlight {
@@ -76,6 +85,49 @@ body {
 
 .white-bg {
   background-color: white;
+}
+
+.icon-summary img {
+  width: 250px;
+}
+
+section.white-section{
+  background-color: white;
+  border-radius: 8px;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+section.section-top-margin {
+  margin-top:80px;
+}
+
+blockquote {
+  border: none;
+}
+
+.logoboard img {
+  max-height: 70px;
+
+}
+.logoboard {
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 20px;
+}
+.logoboard div{
+  height: 120px;
+}
+
+img.featured-logo{
+  height: 110px;
+  max-height: 110px;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 /*.post-cta-headline{
