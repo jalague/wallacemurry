@@ -131,6 +131,3 @@ DEPENDENCIES
   github-pages
   jekyll-paginate
   therubyracer
-
-BUNDLED WITH
-   1.12.5

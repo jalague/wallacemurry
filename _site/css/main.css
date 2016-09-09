@@ -1,18 +1,5 @@
 @import url("pygment_highlights.css");
 
-/* --- HOME --- */
-
-.top-home-row {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.top-home-row .block {
-  display: inline-block;
-  left: 100px;
-}
-
-
 /* --- General --- */
 
 body {
