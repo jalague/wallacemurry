@@ -78,6 +78,7 @@ section {
 
   background: url("/img/bg8.jpg") no-repeat 85% 70px, linear-gradient( to right, rgba(0,0,0,0.0), white 55%);
   background-size: contain, contain;
+  background-position: right;
 }
 
 .main-headline {
