@@ -12,8 +12,8 @@
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav-buttons navbar-right">
-<!--       {% for link in site.navbar-links %}
+      <ul class="nav-buttons navbar-left">
+      {% for link in site.navbar-links %}
         {% if link[1].first %}
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
@@ -30,7 +30,10 @@
             {% include navbarlink.html link=link %}
           </li>
         {% endif %}
-        {% endfor %} -->
+        {% endfor %} 
+      </ul>
+      <ul class="nav-buttons navbar-right">
+      
 
         <li >
           <a href='' class='btn btn-warning btn-lg'>Sign Up</a>
