@@ -173,6 +173,10 @@ img.featured-logo{
   vertical-align: middle;
 }
 
+.posts-list {
+  margin-top: 100px;
+}
+
 /*.post-cta-headline{
   margin-top: 10px;
 }
