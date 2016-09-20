@@ -179,6 +179,40 @@ img.featured-logo{
 .blog-post {
   margin-top: 130px;
 }
+
+.plans-summary {
+  display: block-inline;
+  float: left;
+  width: 250px;
+  position: relative;
+}
+
+.plans-summary li {
+  font-size: 10px;
+}
+
+.plans-summary h3, .plans-summary a {
+  float: right;
+  position: relative;
+
+  left: -50%;
+}
+
+.inner > ul {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+
+.plans-summary a {
+  float: center;
+}
+
+
+.pricing-plans-container {
+  width: auto;
+  float: center;
+}
 /*.post-cta-headline{
   margin-top: 10px;
 }
