@@ -176,7 +176,9 @@ img.featured-logo{
 .posts-list {
   margin-top: 100px;
 }
-
+.blog-post {
+  margin-top: 130px;
+}
 /*.post-cta-headline{
   margin-top: 10px;
 }
