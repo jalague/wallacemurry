@@ -55,6 +55,7 @@ footer-links-active:
   stackoverflow: false
   instagram: false
   youtube: false
+  Blog: "blog"
 
 # Select which share links to show in posts
 share-links-active:
