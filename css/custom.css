@@ -203,10 +203,12 @@ img.featured-logo{
   display: inline-block;
 }
 
-
-.plans-summary a {
-  float: center;
+.col-lg-3 .inner h3, .popular {
+  float:right;
+  position: relative;
+  left: -50%;
 }
+
 
 
 .pricing-plans-container {
