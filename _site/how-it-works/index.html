@@ -197,7 +197,7 @@
       <p>Caffeine makes hundreds of small optimizations all over the place to provide consistent performance improvements for iOS applications. A few of these places include the kernel buffer, the 3-way handshake, and transport level. (Please note that we do not make <i>any</i> changes to your payload. Data compression, a popular performance technique, can open up <a href="https://en.wikipedia.org/wiki/CRIME">new attack vectors</a> in your app, so we strongly caution our customers to stay away from these approaches.) </p>
         <hr />
 
-        <p> Caffeine's approach to iOS networking is driven by data. We spent years collecting performance data from apps in the real world on real networks. Many of our findings uncovered contractions to formerly held theories (an example?) and uncovered design patterns deep within iOS. Caffeine vertically integrates a lot of different "parts" of iOS networking so that we can hard-code many assumptions into lower-levels that represent actual top-level user experience truths. We've cut out a serious amount of fat.</p>
+        <p> Caffeine's approach to iOS networking is driven by data. We spent years collecting performance data from apps in the real world on real networks. Many of our findings uncovered contractions to formerly held theories (an example?) and uncovered design patterns deep within iOS. Caffeine vertically integrates a lot of different "parts" of iOS networking so that we can hard-code many assumptions into lower-levels that represent actual top-level user experience truths. Caffeine cuts out the fat.</p>
     </header>
 
 
@@ -240,13 +240,25 @@
       </div>
     </div>
 
+    <div id="diagram-explanation">
+    <p> <br />
+      In traditional networked software, the boundary between each protocol layer incurs a sizeable overhead. The data from the previous layer must be massaged into a format appropriate for consumption for the next layer. This overhead serves no practical purpose other than to satisfy two different libraries written in two languages that chose incompatible APIs in different decades. <br />
+      These are some of the many sources of performance problems arising from one layer of the network stack not knowing what the other layer is doing.
+      <br />
+      <br />
+      Caffeine, in contrast, leverages techniques that have been known for years in real-time audio processing, allowing data to flow through long signal chains in real-time and with low overhead. Caffeine is a single, vertically integrated solution that streamlines these redundancies to solve the problem in one place.
+      <br />
+      <br />
+      As a vertically integrated solution, Caffeine has access to a “semantically-complete” application request for its entire lifetime. This access allows calculating, and not guessing, when future requests will leave/arrive. With this insight, many subtle optimizations were built into Caffeine’s design.
+
+</p>
+</div>
 
       <div id="why_caffeine_security">
-      <h1> Why Caffeine? </h1>
-      <p class="subtitle">To understand how Caffeine works, you must first understand the reason Caffeine was built—to understand the underlying problem that Caffeine solves.</p>
-      <h3>The problem:</h3>
+      <h1> But what about security? </h1>
+      <p class="subtitle">As it happens, our issues with the state of network security spurred the design of Caffeine. Its fast performance was an accident. </p>
+      <h5>The underlying problem:</h5>
       <h2>Network security is poor and obscenely costly for apps.</h2>
-        <p> But you sell load-speed, not security? You may hear yourself asking. Continue on to find out how these two ideas -- of performance and of security -- are fundamentally intertwined.</p>
         <h3> The costs of network security today: </h3>
 
     <div class="col-lg-4" id="plans-summaries-free">
@@ -311,7 +323,8 @@
     <footer>
   <div class="container beautiful-jekyll-footer">
     <div class="row">
-      <span class"left-row-technicals">Getting Started</span>
+      <div class="col-lg-3">
+              <span class"left-row-technicals">Getting Started</span>
       <ul>
       <li>
         <a href="http://caffei.net/docs" title="Documentation">
@@ -335,6 +348,104 @@
             </a>
           </li>
         </ul>
+      </div>
+        <div class="col-lg-3">
+                  <span class"middle-row-technicals">What we do</span>
+
+      <ul>
+      <li>
+        <a href="http://caffei.net/docs">
+              <span class="">
+                Plans/Pricing
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+                Swift 3 AWS-S3 SDK
+              </span>
+            </a>
+          </li>
+       <li>
+            <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+                Blog
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+                Open Source
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+              <span class"left-row-technicals">Community</span>
+      <ul>
+      <li>
+        <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+              Case Studies
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+                Open Source
+              </span>
+            </a>
+          </li>
+       <li>
+            <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+                Blog
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3">
+              <span class"left-row-technicals">About Us</span>
+      <ul>
+      <li>
+        <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+              Our Team
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+                Press
+              </span>
+            </a>
+          </li>
+       <li>
+            <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+                Terms of Service
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="http://caffei.net/docs" title="Documentation">
+              <span class="">
+                Privacy Policy
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links">
           
