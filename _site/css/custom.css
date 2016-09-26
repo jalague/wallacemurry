@@ -275,3 +275,19 @@ div#rcorners-non-caff, div#rcorners-caff {
 }
 
 
+.beautiful-jekyll-footer .footer-header{
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: right;
+  letter-spacing: 1.5px;
+}
+.beautiful-jekyll-footer {
+  text-align: center;
+}
+
+.beautiful-jekyll-footer ul {
+  list-style: none;
+  padding: 0px; 
+  margin: 0px;
+}
+
