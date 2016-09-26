@@ -191,11 +191,17 @@ img.featured-logo{
   font-size: 10px;
 }
 
-.plans-summary h3, .plans-summary a {
-  float: right;
-  position: relative;
+.popular {
+  text-align: center;
+  display: inherit;
+}
 
-  left: -50%;
+.col-lg-3 .inner {
+  text-align: center;
+}
+
+.col-lg-3 .inner ul {
+  text-align: left;
 }
 
 .inner > ul {
@@ -203,23 +209,13 @@ img.featured-logo{
   display: inline-block;
 }
 
-.col-lg-3 .inner h3, .popular {
-  float:right;
-  position: relative;
-  left: -50%;
+#plans-summaries-business.col-lg-3 {
+   background-color: white;
+   margin: 0;
+
 }
-
-
 
 .pricing-plans-container {
   width: auto;
   float: center;
 }
-/*.post-cta-headline{
-  margin-top: 10px;
-}
-
-.post-cta-healdine a {
-  text-decoration: underline;
-  color: black;
-}*/
