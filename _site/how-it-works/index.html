@@ -52,7 +52,7 @@
   <meta property="og:title" content="Caffeine" />
   <meta property="og:type" content="website" />
   
-  <meta property="og:url" content="http://wittedhaddock.github.io/" />
+  <meta property="og:url" content="http://wittedhaddock.github.io/how-it-works/" />
   
   
   <meta property="og:image" content="http://wittedhaddock.github.io/img/avatar-icon.png" />
@@ -63,7 +63,7 @@
   <meta name="twitter:site" content="@" />
   <meta name="twitter:creator" content="@" />
   <meta name="twitter:title" content="Caffeine" />
-  <meta name="twitter:description" content="Blistering Speed Caffeine is faster than your CDN and works even when other tools like caching and compression can&#39;t. User login, API requests, uploads, and even loading fresh data on launch are all accelerated by our tech. Hassle Free Caffeine works out of the box, and integration takes 15 minutes...." />
+  <meta name="twitter:description" content="How does Caffeine work? Caffeine makes hundreds of small optimizations all over the place to provide consistent performance improvements for iOS applications. A few of these places include the kernel buffer, the 3-way handshake, and transport level. (Please note that we do not make any changes to your payload. Data..." />
   
   <meta name="twitter:image" content="http://wittedhaddock.github.io/img/avatar-icon.png" />
   
@@ -187,94 +187,88 @@
 </nav>
 
 
-    <!-- TODO this file has become a mess, refactor it -->
+    <section>
+    
+    <hr>
+      <div class="container" id="how-it-works">
+        <header>
+
+      <h1> How does Caffeine work? </h1>
+      <p>Caffeine makes hundreds of small optimizations all over the place to provide consistent performance improvements for iOS applications. A few of these places include the kernel buffer, the 3-way handshake, and transport level. (Please note that we do not make <i>any</i> changes to your payload. Data compression, a popular performance technique, can open up <a href="https://en.wikipedia.org/wiki/CRIME">new attack vectors</a> in your app, so we strongly caution our customers to stay away from these approaches.) </p>
+        <hr />
+
+        <p> Caffeine's approach to iOS networking is driven by data. We spent years collecting performance data from apps in the real world on real networks. Many of our findings uncovered contractions to formerly held theories (an example?) and uncovered design patterns deep within iOS. Caffeine vertically integrates a lot of different "parts" of iOS networking so that we can hard-code many assumptions into lower-levels that represent actual top-level user experience truths. We've cut out a serious amount of fat.</p>
+    </header>
 
 
-
-
-
-<header class="header-section ">
-
-
-</header>
-
-
-
-
-
-<!-- <div class="intro-header no-img">
-  <div class="page-heading">
-    <h1>
-      <img class='main-logo' src="/img/avatar-icon.png" />
-      Caffeine
-    </h1>
-    <h2 class="page-subheading">Super-Charged iOS Network Speeds in 15 Minutes.</h2>
-  </div>
-</div> -->
-<div class='white-bg banner-image'>
-  <div class='container split-header'>
-    <div class='row'>
-      <div class='col-md-5'>
-        <h1 class='main-headline'>
-          Caffeine makes load-speed <span class='blue-highlight'>explosively fast </span> in your iOS app
-        </h1>
-
-        <div class='main-cta'>
-<!--           <div class='sub-headline'>Want all the details? Let us send you our whitepaper.</div>
-          <form class="form-inline">
-            <div class="form-group">
-              <label class="sr-only" for="emailInput">Email</label>
-              <div class="input-group">
-                <input type="email" class="form-control input-lg" id="emailInput" placeholder="Your Email Here">
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary btn-lg">Send Me a Copy</button>
-          </form> -->
-          <!-- <div class='post-cta-headline'>Already sold? <a href=''>Let's get you signed up.</a></div> -->
-          <a href='' class='btn btn-warning btn-superlg'>Learn More</a>
+        <div class="col-lg-6" id="caffeine_how_it_works_column">
+      <div class="inner">
+        <h4> Typical iOS Networking stack</h4>
+        <div id="rcorners-non-caff">
+          <p>Client</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>HTTP</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>TLS</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>TCP</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>IP</p>
+        </div>
+       
+      </div>
+    </div>
+     <div class="col-lg-6" id="caffeine_how_it_works_column">
+      <div class="inner">
+        <h4> Caffeine networking stack</h4>
+         <div id="rcorners-non-caff">
+          <p>Client</p>
+        </div>
+        <div id="rcorners-caff">
+          <p>Caffeine</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>TCP</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>IP</p>
         </div>
       </div>
+    </div>
 
-      <div class='col-md-7'>
+
+      <div id="why_caffeine_security">
+      <h1> Why Caffeine? </h1>
+      <p class="subtitle">To understand how Caffeine works, you must first understand the reason Caffeine was built—to understand the underlying problem that Caffeine solves.</p>
+      <h3>The problem:</h3>
+      <h2>Network security is poor and obscenely costly for apps.</h2>
+        <p> But you sell load-speed, not security? You may hear yourself asking. Continue on to find out how these two ideas -- of performance and of security -- are fundamentally intertwined.</p>
+        <h3> The costs of network security today: </h3>
+
+    <div class="col-lg-4" id="plans-summaries-free">
+      <div class="inner">
+        <h4> 1. Greater network security <i>causes</i> lesser performance </h4>
+        <p> HTTPS is slower than HTTP: a well-known truth in application-development communities. This creates the unfortunate reality that applications often have to <i>choose</i> between security and performance. Because a faster app equates to more dollars, apps will typically choose performance over security, using HTTPS as sparingly as possible.</p>
+      </div>
+    </div>
+     <div class="col-lg-4" id="plans-summaries-free">
+      <div class="inner">
+        <h4> 2. App network security relies on decades old technology that isn't actually that secure and breaks often</h4>
+        <p> HTTPS was built for the browser, not mobile apps. So its attack surface area, for example, is unnecessarily huge for your app.[talk about number of breaks in last year etc ]</p>
+      </div>
+    </div>
+    <div class="col-lg-4" id="plans-summaries-free">
+      <div class="inner">
+        <h4> 3. Integrating network security into an app is not a task for app-developers</h4>
+        <p> App developers should spend their time writing user-features, not understanding low-level network security. Given the arcane complexity of HTTPS configurations, it's incredibly easy to screw up an installation too and this happens all the time. Easily made human errors here lead to huge security flaws in applications. </p>
       </div>
     </div>
   </div>
 </div>
-
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-12 col-md-12">
-      <div class="posts-list">
-  
-</div>
-
-
-
-<section>
-  <!-- <h2>What is Caffeine?</h2> -->
-<!--   <p>3 years of R&D by frustrated iOS developers — a purely software solution that speeds the hell out of your iOS network requests.</p>
- -->  <div class="row icon-summary">
-    <div class='col-md-4'>
-      <img src="img/svg/lg_power.svg">
-      <h3 class='blue-highlight'>Blistering Speed</h3>
-      Caffeine is faster than your CDN and works even when other tools like caching and compression can't. User login, API requests, uploads, and even loading fresh data on launch are all accelerated by our tech.
-    </div>
-    <div class='col-md-4'>
-      <img src="img/svg/lg_control.svg">
-      <h3 class='blue-highlight'>Hassle Free</h3>
-      Caffeine works out of the box, and integration takes 15 minutes. Get back to building features, stop worrying about low level performance optimizations. 
-    </div>
-    <div class='col-md-4'>
-      <img src="img/svg/lg_secure.svg">
-      <h3 class='blue-highlight'>Fully Secure</h3>
-      Caffeine protects your data using NaCl, the peer-reviewed cryptographic library written for next-generation applications. Each request is protected with 256-bit elliptical curve cryptography with PFS.
-    </div>
-
-  </div>
-</section>
-<div style='height: 90px;'></div> <!-- shitty temp spacer, don't judge -->
-<h2 class='text-center'>Caffeine is loved by these fine companies</h2>
-<section class='white-section'>
 <!--   <h4> Caffeine is loved by these fine companies...</h4>
   <div class="text-center">
     <img src="/img/logoboard.png" />
@@ -291,21 +285,21 @@
     </div>
   </div>
   <blockquote>
-  <p>
-    The hardest thing about building an app is being instantly compared to, and measured against, billion dollar companies like Facebook by your users. Caffeine has been absolutely critical for us. Anything short of near instantaneous load time is time for your users to stop and think about using another product. The Caffeine team integrated their product for us seamlessly, efficiently, and without us having to change a thing, erasing a huge deficit in responsiveness and load time. 
-  </p>
-  <p>
-    I wish we had learned about it sooner, as you only have one chance to make a great impression. Caffeine has made a world of difference.
-  </p>
-  <p><small>
-    Sam Davidson, CEO and Founder of <a href='http://getcheers.co/'> Cheers </a>
+    <p>
+      The hardest thing about building an app is being instantly compared to, and measured against, billion dollar companies like Facebook by your users. Caffeine has been absolutely critical for us. Anything short of near instantaneous load time is time for your users to stop and think about using another product. The Caffeine team integrated their product for us seamlessly, efficiently, and without us having to change a thing, erasing a huge deficit in responsiveness and load time. 
+    </p>
+    <p>
+      I wish we had learned about it sooner, as you only have one chance to make a great impression. Caffeine has made a world of difference.
+    </p>
+    <p><small>
+      Sam Davidson, CEO and Founder of <a href='http://getcheers.co/'> Cheers </a>
     </small>
   </p>
-  </blockquote>
+</blockquote>
 
-  <div class='text-center'>
-    <a href='' class='btn btn-warning btn-lg btn-sidepadding'>See how Cheers did it</a>
-  </div>
+<div class='text-center'>
+  <a href='' class='btn btn-warning btn-lg btn-sidepadding'>See how Cheers did it</a>
+</div>
 </section>
 
 <!-- <div class="text-center">
@@ -313,11 +307,6 @@
 </div>
 
  -->
-
-    </div>
-  </div>
-</div>
-
 
     <footer>
   <div class="container beautiful-jekyll-footer">

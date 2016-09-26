@@ -23,8 +23,8 @@ description: Caffeine cuts all the fat out of iOS content loading
 
 # List of links in the navigation bar
 navbar-links:
-  How it works: "about"
-  Customers: "about"
+  How it works: "how-it-works"
+  AWS-S3: "about"
   Pricing: "pricing"
   About: "about"
   Blog: "blog"

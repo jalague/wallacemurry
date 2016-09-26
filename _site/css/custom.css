@@ -215,7 +215,59 @@ img.featured-logo{
 
 }
 
+#how-it-works.container {
+  margin-top: 80px;
+}
+
 .pricing-plans-container {
   width: auto;
   float: center;
 }
+
+#rcorners-non-caff {
+  border-radius: 10px;
+    background: #E7B158;
+    padding: 20px; 
+    width: 200px;
+    height: 50px; 
+    margin-top: 15px
+    text-align: center;
+    position: relative;
+}
+
+#rcorners-non-caff p, #rcorners-caff p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+}
+
+#rcorners-caff p {
+  color: white;
+}
+
+#caffeine_how_it_works_column {
+  text-align: center;
+}
+
+div#rcorners-non-caff, div#rcorners-caff {
+  margin: 15px auto;
+}
+
+#why_caffeine_security {
+  display: inline-block;
+}
+
+#rcorners-caff {
+  top: 50%;
+  border-radius: 10px;
+    background: #4887BB;
+    padding: 20px; 
+    width: 200px;
+    height: 50px; 
+    text-align: center;
+    position: relative;
+}
+
+
