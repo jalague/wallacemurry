@@ -196,11 +196,11 @@ img.featured-logo{
   display: inherit;
 }
 
-.col-lg-3 .inner {
+.col-lg-5 .inner {
   text-align: center;
 }
 
-.col-lg-3 .inner ul {
+.col-lg-5 .inner ul {
   text-align: left;
 }
 
@@ -209,7 +209,7 @@ img.featured-logo{
   display: inline-block;
 }
 
-#plans-summaries-business.col-lg-3 {
+#plans-summaries-business.col-lg-5 {
    background-color: white;
    margin: 0;
 
@@ -307,4 +307,50 @@ div#rcorners-non-caff, div#rcorners-caff {
   background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+h1#pricing-header {
+  text-align: center;
+}
+
+.pricing-plan-sub-head {
+  margin-top: 1.2em;
+}
+
+#plans-summaries-standard .inner ul {
+  margin-top: 6.0em;
+}
+
+#plans-summaries-premium ul {
+  margin-top: 3.1em;
+}
+
+#plans-summaries-premium .btn {
+  margin-top: 6.7em;
+  background-color: #E7B158;
+  border-color: #E7B158;
+  color: white;
+}
+
+#plans-summaries-standard .btn {
+  margin-top:  1.0em;
+  background-color: #E7B158;
+  border-color: #E7B158;
+  color: white;
+}
+
+#pricing-tiers {
+  margin-top: 4.0em;
+}
+
+#pricing-section {
+  margin-top: 100px;
+}
+
+#pricing-tiers .col-lg-5 {
+  background-color: white;
+  border-radius: 10px;
+  border-color: gray;
+  border-width: 1px;
+  height: 573px;
 }
