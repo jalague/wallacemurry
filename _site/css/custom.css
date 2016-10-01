@@ -313,16 +313,17 @@ h1#pricing-header {
   text-align: center;
 }
 
+
 .pricing-plan-sub-head {
-  margin-top: 1.2em;
+  margin-top: 2.9em;
 }
 
 #plans-summaries-standard .inner ul {
-  margin-top: 6.0em;
+  margin-top: 4.0em;
 }
 
 #plans-summaries-premium ul {
-  margin-top: 3.1em;
+  margin-top: 1.8em;
 }
 
 #plans-summaries-premium .btn {
@@ -333,7 +334,7 @@ h1#pricing-header {
 }
 
 #plans-summaries-standard .btn {
-  margin-top:  1.0em;
+  margin-top:  -0.59em;
   background-color: #E7B158;
   border-color: #E7B158;
   color: white;
@@ -341,10 +342,11 @@ h1#pricing-header {
 
 #pricing-tiers {
   margin-top: 4.0em;
+  text-align: center;
 }
 
 #pricing-section {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 #pricing-tiers .col-lg-5 {
@@ -352,5 +354,37 @@ h1#pricing-header {
   border-radius: 10px;
   border-color: gray;
   border-width: 1px;
-  height: 573px;
+  height: 653px;
+  overflow: hidden;
+}
+
+.pricing-plan-sub-head .price-value {
+  font-weight: 600;
+  font-size:1.3em;
+
+}
+
+#pricing-title-container {
+  margin: -20px;
+  height: 100px;
+  background-color: #4E8ABB;
+  color: white;
+}
+
+#pricing-title-container h3 {
+    top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+#pricing-tiers li {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#pricing-section .subtitle {
+  text-align: center;
+  line-height: 60px;
+  font-weight: 200;
 }
