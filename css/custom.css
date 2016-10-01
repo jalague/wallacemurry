@@ -388,3 +388,7 @@ h1#pricing-header {
   line-height: 60px;
   font-weight: 200;
 }
+
+#sam-davidson-small-face{
+  border-radius: 20px;
+}
