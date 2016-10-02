@@ -392,3 +392,14 @@ h1#pricing-header {
 #sam-davidson-small-face{
   border-radius: 20px;
 }
+
+
+
+#benefits-section {
+  margin-top: 200px;
+}
+
+#benefits-section h1 {
+  font-size: 50px;
+  display: inline;
+}
