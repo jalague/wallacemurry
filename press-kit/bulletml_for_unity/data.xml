@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>BulletML For Unity</title>
+	<release-date>9 April, 2014</release-date>
+	<website>pixelnest.io/work/bulletml-for-unity</website>
+	<press-can-request-copy>FALSE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>Windows, Mac (Unity3D)</name>
+			<link>bulletml-for-unity.pixelnest.io</link>
+		</platform>
+		<platform>
+			<name>Demo (web)</name>
+			<link>pixelnest.io/work/bulletml-for-unity/demo</link>
+		</platform>
+	</platforms>
+
+	<prices>
+		<price>
+			<currency>USD</currency>
+			<value>$20</value>
+		</price>
+		<price>
+			<currency>EUR</currency>
+			<value>€15.20</value>
+		</price>
+	</prices>
+
+	<description>
+		BULLETML FOR UNITY is a simple and powerful plugin for Unity 4.3 or higher.
+
+		BULLETML FOR UNITY is a thin wrapper which eases the integration of the famous game library BulletML (used in many shooters) into a Unity3D project. It allows you to design and play some very complex bullet patterns with a simple XML file. It's especially useful in "Shoot'Em Up" games to create memorable boss fights or enemies.
+	</description>
+
+	<history>
+		Pixelnest Studio wanted to use the BulletML library in their incoming games. This way, they could create complex sequences and patterns and enhance their shooters.
+
+		Instead of keeping the code for them, they decided to create a complete plugin, with documentation, examples and patterns. They published it on the Unity Asset Store to reach a large audience and have a taste of the potential of this online store.
+	</history>
+
+	<features>
+		<feature>Simple and lightweight. No scripting required.</feature>
+		<feature>XML files: easy ro read and to write.</feature>
+		<feature>Handle the difficulty directly within the patterns.</feature>
+		<feature>Bullet bank mechanism. Associate a pattern's bullet to a sprite easily.</feature>
+		<feature>Customizable.</feature>
+		<feature>Multi-platform.</feature>
+		<feature>Completely documented.</feature>
+	</features>
+
+	<quotes>
+		<quote>
+			<description>This is -THE- plugin if you're looking to build your shmup with amazing enemy bullet patterns in a short time.</description>
+			<name>WY Leong</name>
+			<website>"BulletML for Unity" review</website>
+			<link>https://www.assetstore.unity3d.com/en/#!/content/16206</link>
+		</quote>
+	</quotes>
+
+	<additionals>
+		<additional>
+			<title>Shopping page</title>
+			<description>Available only on</description>
+			<link>https://www.assetstore.unity3d.com/en/#!/content/16206</link>
+		</additional>
+
+		<additional>
+			<title>Supermassive</title>
+			<description>A game made with BulletML for Unity. More on</description>
+			<link>supermassive.pixelnest.io/index.html</link>
+		</additional>
+
+		<additional>
+			<title>Shmupfest</title>
+			<description>A game made with BulletML for Unity. More on</description>
+			<link>pixelnest.io/work/shmupfest</link>
+		</additional>
+	</additionals>
+
+	<credits>
+		<credit>
+			<person>Damien Mayance</person>
+			<role>Developer, Pixelnest Studio</role>
+		</credit>
+		<credit>
+			<person>Matthieu Oger</person>
+			<role>Developer, Pixelnest Studio</role>
+		</credit>
+	</credits>
+</game>

@@ -407,3 +407,22 @@ h1#pricing-header {
 #press-kit-page {
   margin-top: 150px;
 }
+
+#customer-page {
+  margin-top: 160px;
+}
+
+#sub-head-customer {
+  font-weight: 300;
+}
+
+#first-row-customer {
+  text-align: left;
+}
+
+
+#first-row-customer img, #first-row-customer #cheers-quote {
+  display: inline;
+}
+
+
