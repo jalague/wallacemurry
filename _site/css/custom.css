@@ -141,6 +141,15 @@ section.white-section{
   margin-top: 30px;
 }
 
+section.white-section-small{
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 30px;
+  height: 200px;
+  display: inline-block;
+  padding: 20px;
+}
+
 section.section-top-margin {
   margin-top:80px;
 }
