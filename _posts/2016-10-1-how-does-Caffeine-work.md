@@ -8,7 +8,7 @@ tags: [engineering]
 <section>
     
     <hr>
-      <div class="container" id="how-it-works">
+      <div id="how-it-works">
         <header>
 
       <h1> How does Caffeine work? </h1>
