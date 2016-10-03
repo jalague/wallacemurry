@@ -392,7 +392,7 @@ h1#pricing-header {
   font-size: 14px;
 }
 
-#pricing-section .subtitle {
+#pricing-section .subtitle, #benefits-section .subtitle {
   text-align: center;
   line-height: 60px;
   font-weight: 200;
