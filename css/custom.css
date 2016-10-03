@@ -425,4 +425,39 @@ h1#pricing-header {
   display: inline;
 }
 
+#cheers-quote b {
+  padding-left: 5px;
+}
 
+#customer-challenge-section {
+  display: block;
+  margin-top: 30px;
+}
+
+#cheers-graph-div  {
+  text-align: center;
+}
+
+#cheers-graph-div .col-md-6 .customer-circle{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.customer-circle {
+  height: 160px;
+  width: 160px;
+  background-color: #4887BB;
+  border-radius: 80px;
+}
+
+.customer-circle h2 {
+  color: white;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+#cheers-sam-quote h2 {
+  text-align: center;
+  display: inline-table;
+}
