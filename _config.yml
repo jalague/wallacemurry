@@ -5,7 +5,7 @@ permalink:           pretty
 
 # Setup
 title:               'Swift: On The Server'
-tagline:             'You''re full-stack, Harry!'
+tagline:             'You''re a fullstack developer, Harry!'
 description:         'Write swift on the backend and on the client!'
 url:                 http://swiftfullstack.com
 baseurl:             ''
