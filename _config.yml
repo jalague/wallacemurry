@@ -9,7 +9,7 @@ title:               'Swift: On The Server'
 tagline:             'You''re a fullstack developer, Harry!'
 description:         'Write swift on the backend and on the client!'
 url:                 http://swiftfullstack.com/
-baseurl:             'http://swiftfullstack.com/'
+baseurl:             'http://swiftfullstack.com'
 paginate:            1
 
 # About/contact
