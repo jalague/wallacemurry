@@ -3,13 +3,14 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
+
 # Setup
 title:               'Swift: On The Server'
 tagline:             'You''re a fullstack developer, Harry!'
 description:         'Write swift on the backend and on the client!'
 url:                 http://swiftfullstack.com
-baseurl:             ''
-paginate:            5
+baseurl:             'http://swiftfullstack.com'
+paginate:            1
 
 # About/contact
 author:
