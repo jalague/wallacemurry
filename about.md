@@ -11,6 +11,13 @@ Our goal is to expand the horizons of as many iOS developers as we can—to show
 
 ## About us
 
+![james-profile]({{site.url}}public/images/james-profile.jpg)
+
+James Graham  ([@wittedhaddock](https://twitter.com/wittedhaddock))
 
 ![drew-profile]({{ site.url}}public/images/drew-profile.png)
+
+Drew Crawford ([@drewcrawford](https://twitter.com/drewcrawford))
+
+
 
