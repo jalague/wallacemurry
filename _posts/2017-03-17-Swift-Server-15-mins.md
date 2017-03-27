@@ -237,4 +237,4 @@ Congratulations, iOS Developer! You have more power than you know!
 
 -----
 
-Want to receive updates from this blog? <a href="#">Subscribe</a>. (You will receive one email a week containing new posts.)
+Want to receive updates from this blog? <a href="{{site.url}}subscribe">Subscribe</a>. (You will receive one email a week containing new posts.)
