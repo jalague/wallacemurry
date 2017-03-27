@@ -4,7 +4,7 @@ title: Subscribe
 ---
 
 
-<form role="form" action ="https://formspree.io/help@caffei.net" method="POST">
+<form role="form" action ="https://formspree.io/james@caffei.net" method="POST">
 <h2><small>We post about a week, and you'll get an email when we do.</small></h2>
 
 <div class="form-group">
