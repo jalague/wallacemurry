@@ -1,17 +1,16 @@
 ---
 layout: page
-title: Subscribe
+title: About
 ---
 
+## About us
 
-<form role="form" action ="https://formspree.io/james@caffei.net" method="POST">
-<h2><small>We post about a week, and you'll get an email when we do.</small></h2>
+We're two iOS devs who became quite excited when Swift was open sourced. We started running Swift on the server in 2015 for [our business](http://caffei.net).
 
-<div class="form-group">
-<input type="email" name="email" id="display_name" class="form-control input-lg" placeholder="Email Address" tabindex="3">
-</div>
+Our goal is to expand the horizons of as many iOS developers as we can—to show them that they, too, can write server-side code! 
 
-<div class="row">
-<div class="col-xs-12 col-md-12"><input type="submit" value="Subscribe" class="btn btn-primary btn-block btn-lg" tabindex="7" id="register-button-on-page"></div>
-</div>
-</form>
+## About us
+
+
+![drew-profile]({{ site.url}}public/images/drew-profile.png)
+
