@@ -5,7 +5,7 @@ title: Subscribe
 
 
 <form role="form" action ="https://formspree.io/james@caffei.net" method="POST">
-<h2><small>We post about a week, and you'll get an email when we do.</small></h2>
+<h2><small>We post about once a week, and you'll get an email when we do.</small></h2>
 
 <div class="form-group">
 <input type="email" name="email" id="display_name" class="form-control input-lg" placeholder="Email Address" tabindex="3">
