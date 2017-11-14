@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (83% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+          Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/CaffeineHTTPProxy.html">CaffeineHTTPProxy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/NSURLSessionConfiguration.html">NSURLSessionConfiguration</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+          
+<a href='#contact_our_engineers_at_a_href_mailto_help_caffei_net_help_caffei_net_a_for_a_trial' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='contact_our_engineers_at_a_href_mailto_help_caffei_net_help_caffei_net_a_for_a_trial'>Contact our engineers at <a href="mailto:help@caffei.net">help@caffei.net</a> for a trial.</h3>
+<h3>Problems submitting to the app store? <a href="./AppSubmission.html">Click here</a></h3>
+<a href='#integration_getting_started' class='anchor' aria-hidden=true><span class="header-anchor"></span></a>
+
+
+<a href='#about_caffeine' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='about_caffeine'>About Caffeine</h2>
+
+<p>Caffeine is the result of many frustrated years spent developing native applications for our clients on a contracting and consulting basis.
+Application speed has many components, but in our experience one of the most frustrating is network latency–the performance tax you pay simply for talking on the network.
+Mobile engineers have control over the other factors, like client-side and server-side performance. But the network performance has remained relatively constant and elusively outside of engineering’s reach until now. Caffeine challenges the commonly held assumptions of performance in a purely software solution.</p>
+<a href='#the_two_fundamental_speed_limitations_in_networking' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='the_two_fundamental_speed_limitations_in_networking'>The Two Fundamental Speed Limitations in networking</h3>
+
+<ul>
+<li>Bandwidth: bits per second of data</li>
+<li>Latency: time between a request and a response</li>
+</ul>
+
+<p>Bandwidth is ultimately limited by the carrier’s networking hardware. Latency is primarily limited by two features: the speed of electricity through electrical wire—very roughly &frac12; the speed of light in a vacuum (1/2c), and the geographic efficiency of the network path (straightness of line). Because carriers define speed limits, people commonly assume that performance can’t improve. But more efficient protocols require less bandwidth and less latency, even if the speed limits are the same.
+Caffeine, a “pure software” solution, aggressively targets <strong>both</strong> fundamental limits –the bandwidth
+<strong>and</strong> latency efficiency of the request. We send less data and incur fewer round-trips than the equivalent HTTPS implementation. The exact techniques we use to do this are proprietary, but the underlying math is simple.</p>
+<a href='#an_example' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='an_example'>An Example</h3>
+
+<p>If we allow that there are 6000km from Boston to Switzerland (where the server is in <a href="https://vimeo.com/156772511">our search demo</a>), and that the speed of electricity is 1/2c, then a round-trip request/response there and back again is about 20ms. If we further allow a 2x inefficiency because the networking cable is not in a straight line and that each of the 20 hops on the path add about 2ms of queuing latency then we are up to 80ms. This estimate is roughly consistent with empirical results from ping (using the ICMP).
+There is no reason why we could not theoretically make a request in 80ms. Quite simply, if you aren’t seeing 80ms request/response times right now, your application is traveling slower than the network speed limit allows.
+Caffeine technology is engineered tightly to this network speed limit. The result is a network technology that is much more efficient than traditional technology, often by a factor of 2X or more.</p>
+<a href='#datacenter_grade_communications' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='datacenter_grade_communications'>Datacenter-grade Communications</h3>
+
+<p>We are not the first people to realize this; in fact our research suggests that both Facebook and Amazon (and probably all the others) are doing things like this inside their data-centers. But their technology is kept hidden behind the firewall. Caffeine is <q>datacenter-grade</q> networking that we want to make available to everyone.</p>
+<a href='#an_important_detail' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='an_important_detail'>An Important Detail</h2>
+
+<p>Caffeine runs in a very important part of your application. </p>
+
+<p>If anything unexpected occurs, Caffeine will fallback to using HTTP/S where it is appropriate to do so. </p>
+
+<p>The below table describes this behavior:</p>
+
+<p><img src="./HTTPRetryTable.png" alt="HTTP Retry by error table"></p>
+<a href='#more_technical_information' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='more_technical_information'>More technical information</h2>
+
+<p>A report of Caffeine&rsquo;s effect on image downloading may be found <a href="./MIDWriteup.pdf">here</a></p>
+<a href='#closing_remarks' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='closing_remarks'>Closing Remarks</h2>
+
+<p>It is after more than a year of meticulous engineering and testing that we feel comfortable inviting organizations to work with us. We take great pride in our technology, and it&rsquo;s essential to us that it pushes your applications forward. </p>
+
+<p>Caffeine is our craft, our art, our lives. We&rsquo;re not web developers, graphic designers, or wordsmiths; we&rsquo;re iOS developers, and that&rsquo;s pretty much it. We do one thing, and we do it well: we build tools that allow you to create experiences on the iPhone that others write off as impossible. </p>
+
+<p>As far as we know (and we don&rsquo;t know everything, but we know enough), our technology is the fastest secure networking software for iOS applications in the world. We believe that we can at least double your iOS application&rsquo;s network performance.   </p>
+
+<p>It&rsquo;s an exciting time for us, and we are very fortunate to be able to collaborate with great customers to make their exceptional apps even better.  We jump at the opportunity to work with organizations that share our values of both end user experience and quality software development. </p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-04-28)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

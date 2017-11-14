@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76795314-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<html lang="en">
+  <head>
+    <title>  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (85% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+          Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/CaffeineHTTPProxy.html">CaffeineHTTPProxy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/NSURLSessionConfiguration.html">NSURLSessionConfiguration</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+           
+<a href='#integration_getting_started' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='integration_getting_started'>Steps for A/B Testing Caffeine</h1>
+
+<p>Applying Caffeine to a percentage of user-sessions is supported. Because of a desire to change this percentage without submitting an update to the app store, this percentage value lives on a remote file that we control. The default value is 100%, so assuming a request is <a href="./Classes/CaffeineHTTPProxy.html#/s:ZFC8Proxeine17CaffeineHTTPProxy5allowFSST_">allowed</a> and your license file is valid it will flow through Caffeine. <br /> To change this percentage, please email our engineers at help@caffei.net</p>
+
+<a href='#steps_to_integrate' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='steps_to_integrate'>Determining whether Caffeine is enabled on the current session</h2>
+
+<p>Upon the start of every session, a notification whose name is stored as <code><a href="./Classes/CaffeineHTTPProxy.html#/s:ZvC8Proxeine17CaffeineHTTPProxy40caffeineInformationStringNotificationKeySS">CaffeineHTTPProxy.caffeineInformationStringNotificationKey</a></code>
+
+is posted to the default notification center. Within the notification's userInfo is a boolean value keyed by the same string-value as the notification name (right above) indicating whether or not Caffeine is enabled for the current session.
+
+<a href='#steps_to_integrate' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='steps_to_integrate'>An Example View Controller</h2>
+
+
+
+<p>Swift 3:</p>
+
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">UIKit</span>
+<span class="kd">import</span> <span class="kt">Proxeine</span>
+
+<span class="kd">class</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UIViewController</span> <span class="p">{</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+        <span class="kt">NotificationCenter</span><span class="o">.</span><span class="k">default</span><span class="o">.</span><span class="nf">addObserver</span><span class="p">(</span><span class="k">self</span><span class="p">,</span> <span class="nv">selector</span><span class="p">:</span> <span class="kd">#selector(</span><span class="nf">receivedCaffeineNotification(aNotification:)</span><span class="kd">)</span><span class="p">,</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="o">.</span><span class="kt">Name</span><span class="p">(</span><span class="nv">rawValue</span><span class="p">:</span> <span class="kt">CaffeineHTTPProxy</span><span class="o">.</span><span class="n">caffeineInformationStringNotificationKey</span><span class="p">),</span> <span class="nv">object</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Our method to receive the Caffeine notification</span>
+    <span class="kd">func</span> <span class="nf">receivedCaffeineNotification</span><span class="p">(</span><span class="nv">aNotification</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="n">aNotification</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">rawValue</span> <span class="o">==</span> <span class="kt">CaffeineHTTPProxy</span><span class="o">.</span><span class="n">caffeineInformationStringNotificationKey</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="k">let</span> <span class="nv">usingCaffeine</span> <span class="o">=</span> <span class="n">aNotification</span><span class="o">.</span><span class="n">userInfo</span><span class="p">?[</span><span class="kt">CaffeineHTTPProxy</span><span class="o">.</span><span class="n">caffeineInformationStringNotificationKey</span><span class="p">]</span> <span class="k">as?</span> <span class="kt">Bool</span> <span class="p">{</span>
+                <span class="c1">// 'usingCaffeine` now tracks whether Caffeine is enabled for this SESSION</span>
+                <span class="c1">// You can log this value with your analytics service</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">deinit</span> <span class="p">{</span>
+        <span class="kt">NotificationCenter</span><span class="o">.</span><span class="k">default</span><span class="o">.</span><span class="nf">removeObserver</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+
+<p>Your method for receiving the <code>Notification</code> can of course be anywhere in your project, but we strongly recommend adding the observer from within <code>application:didFinishLaunchingWithOptions:</code><p>If at any time you require help, please contact our engineers at <a href="mailto:help@caffei.net">help@caffei.net</a>. They're more than happy to help!</p></p>
+<ul>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-07-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

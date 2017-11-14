@@ -1,0 +1,36 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+<div id="benefits-header-page">
+<div class='white-bg '>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12'>
+              <header style="padding-bottom:150px;">
+      <h1 id="pricing-header" style ="font-weight:700; padding-top:110px; ">    Faster app = More engagement and conversion </h1>
+      <h3 class="subtitle" style="text-align:center;">Caffeine cuts out the fat to load quickly and keep users engaged</h3>
+    </header>
+  </div>
+
+<br />
+
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {{ content }}
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	    {% endif %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,140 @@
+---
+layout: base
+title: Caffeine
+subtitle: Super-Charged iOS Network Speeds in 15 Minutes.
+---
+
+
+
+<section>
+    
+    <hr>
+      <div class="container" id="how-it-works">
+        <header>
+
+      <h1> How does Caffeine work? </h1>
+      <p>Caffeine makes hundreds of small optimizations all over the place to provide consistent performance improvements for iOS applications. A few of these places include the kernel buffer, the 3-way handshake, and transport level. (Please note that we do not make <i>any</i> changes to your payload. Data compression, a popular performance technique, can open up <a href="https://en.wikipedia.org/wiki/CRIME">new attack vectors</a> in your app, so we strongly caution our customers to stay away from these approaches.) </p>
+        <hr />
+
+        <p> Caffeine's approach to iOS networking is driven by data. We spent years collecting performance data from apps in the real world on real networks. Many of our findings uncovered contractions to formerly held theories (an example?) and uncovered design patterns deep within iOS. Caffeine vertically integrates a lot of different "parts" of iOS networking so that we can hard-code many assumptions into lower-levels that represent actual top-level user experience truths. Caffeine cuts out the fat.</p>
+    </header>
+
+
+        <div class="col-lg-6" id="caffeine_how_it_works_column">
+      <div class="inner">
+        <h4> Typical iOS Networking stack</h4>
+        <div id="rcorners-non-caff">
+          <p>Client</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>HTTP</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>TLS</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>TCP</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>IP</p>
+        </div>
+       
+      </div>
+    </div>
+     <div class="col-lg-6" id="caffeine_how_it_works_column">
+      <div class="inner">
+        <h4> Caffeine networking stack</h4>
+         <div id="rcorners-non-caff">
+          <p>Client</p>
+        </div>
+        <div id="rcorners-caff">
+          <p>Caffeine</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>TCP</p>
+        </div>
+        <div id="rcorners-non-caff">
+          <p>IP</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="diagram-explanation">
+    <p> <br />
+      In traditional networked software, the boundary between each protocol layer incurs a sizeable overhead. The data from the previous layer must be massaged into a format appropriate for consumption for the next layer. This overhead serves no practical purpose other than to satisfy two different libraries written in two languages that chose incompatible APIs in different decades. <br />
+      These are some of the many sources of performance problems arising from one layer of the network stack not knowing what the other layer is doing.
+      <br />
+      <br />
+      Caffeine, in contrast, leverages techniques that have been known for years in real-time audio processing, allowing data to flow through long signal chains in real-time and with low overhead. Caffeine is a single, vertically integrated solution that streamlines these redundancies to solve the problem in one place.
+      <br />
+      <br />
+      As a vertically integrated solution, Caffeine has access to a “semantically-complete” application request for its entire lifetime. This access allows calculating, and not guessing, when future requests will leave/arrive. With this insight, many subtle optimizations were built into Caffeine’s design.
+
+</p>
+</div>
+
+      <div id="why_caffeine_security">
+      <h1> But what about security? </h1>
+      <p class="subtitle">As it happens, our issues with the state of network security spurred the design of Caffeine. Its fast performance was an accident. </p>
+      <h5>The underlying problem:</h5>
+      <h2>Network security is poor and obscenely costly for apps.</h2>
+        <h3> The costs of network security today: </h3>
+
+    <div class="col-lg-4" id="plans-summaries-free">
+      <div class="inner">
+        <h4> 1. Greater network security <i>causes</i> lesser performance </h4>
+        <p> HTTPS is slower than HTTP: a well-known truth in application-development communities. This creates the unfortunate reality that applications often have to <i>choose</i> between security and performance. Because a faster app equates to more dollars, apps will typically choose performance over security, using HTTPS as sparingly as possible.</p>
+      </div>
+    </div>
+     <div class="col-lg-4" id="plans-summaries-free">
+      <div class="inner">
+        <h4> 2. App network security relies on decades old technology that isn't actually that secure and breaks often</h4>
+        <p> HTTPS was built for the browser, not mobile apps. So its attack surface area, for example, is unnecessarily huge for your app.[talk about number of breaks in last year etc ]</p>
+      </div>
+    </div>
+    <div class="col-lg-4" id="plans-summaries-free">
+      <div class="inner">
+        <h4> 3. Integrating network security into an app is not a task for app-developers</h4>
+        <p> App developers should spend their time writing user-features, not understanding low-level network security. Given the arcane complexity of HTTPS configurations, it's incredibly easy to screw up an installation too and this happens all the time. Easily made human errors here lead to huge security flaws in applications. </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--   <h4> Caffeine is loved by these fine companies...</h4>
+  <div class="text-center">
+    <img src="{{ site.baseurl }}/img/logoboard.png" />
+  </div> -->
+  <div class='row logoboard'>
+    <div class='col-md-4'>
+      <img style='margin-top: 30px;' src="img/logos/blurr_logo_dark.jpg">
+    </div>
+    <div class='col-md-4'>
+      <img class='featured-logo' src="img/logos/CheersLogoPurple.png">
+    </div>
+    <div class='col-md-4'>
+      <img style='margin-top: 50px;' src="img/logos/appuniverse.png">
+    </div>
+  </div>
+  <blockquote>
+    <p>
+      The hardest thing about building an app is being instantly compared to, and measured against, billion dollar companies like Facebook by your users. Caffeine has been absolutely critical for us. Anything short of near instantaneous load time is time for your users to stop and think about using another product. The Caffeine team integrated their product for us seamlessly, efficiently, and without us having to change a thing, erasing a huge deficit in responsiveness and load time. 
+    </p>
+    <p>
+      I wish we had learned about it sooner, as you only have one chance to make a great impression. Caffeine has made a world of difference.
+    </p>
+    <p><small>
+      Sam Davidson, CEO and Founder of <a href='http://getcheers.co/'> Cheers </a>
+    </small>
+  </p>
+</blockquote>
+
+<div class='text-center'>
+  <a href='' class='btn btn-warning btn-lg btn-sidepadding'>See how Cheers did it</a>
+</div>
+</section>
+
+<!-- <div class="text-center">
+  <img src="{{ site.baseurl }}/img/logoboard.png" />
+</div>
+
+ -->

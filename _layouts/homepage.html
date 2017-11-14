@@ -1,0 +1,61 @@
+---
+layout: base_home
+---
+
+{% include header.html type="page" %}
+
+<!-- <div class="intro-header no-img">
+  <div class="page-heading">
+    <h1>
+      <img class='main-logo' src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
+      Caffeine
+    </h1>
+    <h2 class="page-subheading">{{ page.subtitle }}</h2>
+  </div>
+</div> -->
+<div class='white-bg frontpage-header'>
+  <div class='container split-header'>
+    <div class='row'>
+      
+      <div class='col-md-6'>
+        <h1 class='main-headline'>
+          Unlimited networks are like unlimited food buffets: <br />
+
+        </h1> 
+        <h2 class='sub-main-headline'>
+                    expensive because everyone brings teenagers.
+
+        </h2>
+
+        <h3 class="subtitle-frontpage" >Introducing the mobile network for 55+<h3>
+
+
+        <div class='main-cta'>
+<!--           <div class='sub-headline'>Want all the details? Let us send you our whitepaper.</div>
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="emailInput">Email</label>
+              <div class="input-group">
+                <input type="email" class="form-control input-lg" id="emailInput" placeholder="Your Email Here">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Send Me a Copy</button>
+          </form> -->
+          <!-- <div class='post-cta-headline'>Already sold? <a href=''>Let's get you signed up.</a></div> -->
+          <a href='/benefits' class='btn btn-warning btn-superlg'>Learn More</a>
+        </div>
+      </div>
+
+      <div class='col-md-7'>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-12 col-md-12">
+      {{ content }}
+    </div>
+  </div>
+</div>

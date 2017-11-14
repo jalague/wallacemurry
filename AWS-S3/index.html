@@ -1,0 +1,86 @@
+---
+layout: homepage
+title: Caffeine
+subtitle: Super-Charged iOS Network Speeds in 15 Minutes.
+---
+
+
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+
+<section>
+  <!-- <h2>What is Caffeine?</h2> -->
+<!--   <p>3 years of R&D by frustrated iOS developers — a purely software solution that speeds the hell out of your iOS network requests.</p>
+ -->  <div class="row icon-summary">
+    <div class='col-md-4'>
+      <img src="img/svg/lg_power.svg">
+      <h3 class='blue-highlight'>Blistering Speed</h3>
+      Caffeine is faster than your CDN and works even when other tools like caching and compression can't. User login, API requests, uploads, and even loading fresh data on launch are all accelerated by our tech.
+    </div>
+    <div class='col-md-4'>
+      <img src="img/svg/lg_control.svg">
+      <h3 class='blue-highlight'>Hassle Free</h3>
+      Caffeine works out of the box, and integration takes 15 minutes. Get back to building features, stop worrying about low level performance optimizations. 
+    </div>
+    <div class='col-md-4'>
+      <img src="img/svg/lg_secure.svg">
+      <h3 class='blue-highlight'>Fully Secure</h3>
+      Caffeine protects your data using NaCl, the peer-reviewed cryptographic library written for next-generation applications. Each request is protected with 256-bit elliptical curve cryptography with PFS.
+    </div>
+
+  </div>
+</section>
+<div style='height: 90px;'></div> <!-- shitty temp spacer, don't judge -->
+<h2 class='text-center'>Caffeine is loved by these fine companies</h2>
+<section class='white-section'>
+<!--   <h4> Caffeine is loved by these fine companies...</h4>
+  <div class="text-center">
+    <img src="{{ site.baseurl }}/img/logoboard.png" />
+  </div> -->
+  <div class='row logoboard'>
+    <div class='col-md-4'>
+      <img style='margin-top: 30px;' src="img/logos/blurr_logo_dark.jpg">
+    </div>
+    <div class='col-md-4'>
+      <img class='featured-logo' src="img/logos/CheersLogoPurple.png">
+    </div>
+    <div class='col-md-4'>
+      <img style='margin-top: 50px;' src="img/logos/appuniverse.png">
+    </div>
+  </div>
+  <blockquote>
+  <p>
+    The hardest thing about building an app is being instantly compared to, and measured against, billion dollar companies like Facebook by your users. Caffeine has been absolutely critical for us. Anything short of near instantaneous load time is time for your users to stop and think about using another product. The Caffeine team integrated their product for us seamlessly, efficiently, and without us having to change a thing, erasing a huge deficit in responsiveness and load time. 
+  </p>
+  <p>
+    I wish we had learned about it sooner, as you only have one chance to make a great impression. Caffeine has made a world of difference.
+  </p>
+  <p><small>
+    Sam Davidson, CEO and Founder of <a href='http://getcheers.co/'> Cheers </a>
+    </small>
+  </p>
+  </blockquote>
+
+  <div class='text-center'>
+    <a href='' class='btn btn-warning btn-lg btn-sidepadding'>See how Cheers did it</a>
+  </div>
+</section>
+
+<!-- <div class="text-center">
+  <img src="{{ site.baseurl }}/img/logoboard.png" />
+</div>
+
+ -->
