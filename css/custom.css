@@ -1,6 +1,7 @@
 .icon-summary {
   font-size: 14px;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .navbar-brand {
@@ -121,7 +122,6 @@ section {
 
 .blue-highlight {
   color: rgb(83, 148, 221);
-  font-style: italic;
 }
 
 body {
@@ -133,7 +133,7 @@ body {
 }
 
 .icon-summary img {
-  width: 250px;
+  width: 450px;
 }
 
 section.white-section{
@@ -503,5 +503,18 @@ h1#pricing-header {
 .frontpage-header {
   background-image: url("/img/home-banner.jpg");
   background-repeat: no-repeat;
+  background-position: 0px 80px;
+}
+
+.frontpage-header .col-md-6 {
+  color: white;
+}
+
+.front-page-sub-text {
+  font-size: 17px;
+}
+.force-white-bg{
+    background:#ffffff !important;
+    padding-top: 60px;
 }
 

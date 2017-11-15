@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://caffei.net"
+url: "http://www.wallacemurry.com"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,18 +14,18 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Caffeine 
+title: Wallace Murry 
 
 # Short description of your site
-description: Caffeine cuts all the fat out of iOS content loading 
+description: The mobile network for seniors
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-navbar-links:
-  Blog: "blog"
-  Pricing: "pricing"
-  Benefits: "benefits"
+#navbar-links:
+ # Blog: "blog"
+ # Pricing: "pricing"
+ # Benefits: "benefits"
 #  Benefits: "benefits"
 
 
@@ -38,8 +38,8 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Caffeine Computing Inc.
-  email: "help@caffei.net"
+  name: Wallace Murry Inc.
+  email: "wittedhaddock@gmail.com"
 
 
 # Select which links to show in the footer
@@ -72,7 +72,7 @@ share-links-active:
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-76795314-1"
+google_analytics: "UA-109680960-1"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
