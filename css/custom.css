@@ -70,9 +70,6 @@ section {
   min-height: 650px; 
 }
 
-.container.split-header .row{
-  margin-top:60px;
-}
 
 .engine-bg{
   background: url("/img/bg6.jpg") no-repeat center;
