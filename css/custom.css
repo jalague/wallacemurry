@@ -502,6 +502,11 @@ h1#pricing-header {
   background-repeat: no-repeat;
   background-position: 0px 80px;
   background-color: #F3F3F3;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
 }
 
 .frontpage-header .col-md-6 {
