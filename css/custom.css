@@ -25,7 +25,7 @@ footer, .navbar-custom{
 }
 
 section {
-  margin-top: 700px;
+  margin-top: 100px;
 }
 
 /*.intro-header{
@@ -500,9 +500,9 @@ h1#pricing-header {
 .frontpage-header {
   background-image: url("/img/home-banner.jpg");
   background-repeat: no-repeat;
-  background-position: 0px 80px;
+  background-position: center 80px;
   background-color: #F3F3F3;
-  position: absolute;
+  position: relative;
   left: 50%;
   right: 50%;
   margin-right: -50%;
