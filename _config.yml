@@ -17,14 +17,14 @@ baseurl: ""
 title: Wallace Murry
 
 # Short description of your site
-description: The mobile network for seniors
+description: We offer phone plans with hands-on support
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-#navbar-links:
+navbar-links:
  # Blog: "blog"
- # Pricing: "pricing"
+  Pricing: "pricing"
  # Benefits: "benefits"
 #  Benefits: "benefits"
 
