@@ -38,7 +38,8 @@ layout: base_home
                 <input class="form-control input-lg" id="emailInput" placeholder="Enter Contact Info">
               </div>
             </div>
-            <button type="submit" class="btn btn-primary btn-lg">Request a Person</button>
+            <input type="hidden" name="_next" value="/thanks-for-contacting" />
+            <button type="submit" class="btn btn-primary btn-lg" onclick="ga('send', 'first_contact_cta')">Request a Person</button>
           </form>
           <!-- <div class='post-cta-headline'>Already sold? <a href=''>Let's get you signed up.</a></div> -->
 
