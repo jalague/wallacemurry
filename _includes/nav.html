@@ -7,8 +7,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <img class="navbar-image" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" href="{{ site.url }}"/>
-      
+
+      <!-- wrapped in <a> because img href not working-->
+      <a href="{{ site.url }}">
+      <img class="navbar-image" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" href="{{ site.url }}"/>
+      </a>
      <!-- <a class="navbar-image" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" href="{{ site.url }}"></a>-->
     </div>
 
