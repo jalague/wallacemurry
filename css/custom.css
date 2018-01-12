@@ -393,7 +393,7 @@ h1#pricing-header {
 #pricing-section .subtitle, #benefits-section .subtitle {
   text-align: center;
   line-height: 60px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 #sam-davidson-small-face{
@@ -470,7 +470,7 @@ h1#pricing-header {
 }
 
 #benefits-section .col-lg-4 h4 {
-  font-weight: 200;
+  font-weight: 600;
 }
 
 
@@ -528,4 +528,10 @@ h1#pricing-header {
 .top-padding {
   padding-top: 40px;
 }
+
+@media (max-width: 768px) {
+      .mobile-hide  {
+            display:none;
+   }
+ }
 
