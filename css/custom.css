@@ -329,14 +329,6 @@ h1#pricing-header {
   margin-top: 2.9em;
 }
 
-#plans-summaries-standard .inner ul {
-  margin-top: 4.0em;
-}
-
-#plans-summaries-premium ul {
-  margin-top: 1.8em;
-}
-
 #plans-summaries-premium .btn {
   margin-top: 4.7em;
   background-color: #E7B158;
@@ -518,5 +510,18 @@ h1#pricing-header {
 .force-white-bg{
     background:#ffffff !important;
     padding-top: 60px;
+}
+
+.middle-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.display-table {
+  display: table;
+}
+
+.top-padding {
+  padding-top: 40px;
 }
 
