@@ -367,6 +367,10 @@ h1#pricing-header {
 
 }
 
+.big-font {
+  font-size: 34px;
+}
+
 #pricing-title-container {
   margin: -20px;
   height: 100px;
