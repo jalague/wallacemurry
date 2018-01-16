@@ -493,6 +493,7 @@ h1#pricing-header {
   height: auto;
 }
 
+@media (min-width: 768px) {
 .frontpage-header {
   background-image: url("/img/home-banner.jpg");
   background-repeat: no-repeat;
@@ -502,6 +503,20 @@ h1#pricing-header {
   left: 50%;
   right: 50%;
   transform: translate(-50%, 0%);
+}
+}
+
+@media (max-width: 768px) {
+.frontpage-header {
+  background-image: url("/img/home-banner-mobile.jpeg");
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  background-color: #F3F3F3;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0%);
+}
 }
 
 .frontpage-header .col-md-6 {
@@ -531,6 +546,12 @@ h1#pricing-header {
 
 @media (max-width: 768px) {
       .mobile-hide  {
+            display:none;
+   }
+ }
+
+ @media (min-width: 768px) {
+      .mobile-show  {
             display:none;
    }
  }
