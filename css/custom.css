@@ -526,6 +526,11 @@ h1#pricing-header {
 .front-page-sub-text {
   font-size: 17px;
 }
+
+.padded-slightly {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
 .force-white-bg{
     background:#ffffff !important;
     padding-top: 60px;
