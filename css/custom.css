@@ -558,3 +558,14 @@ h1#pricing-header {
    }
  }
 
+.image-wrapper-pricing {
+  text-align: center; margin: 1em 0;
+
+}
+
+.image-wrapper-pricing img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+}
