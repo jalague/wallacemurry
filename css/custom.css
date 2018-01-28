@@ -558,6 +558,18 @@ h1#pricing-header {
    }
  }
 
+ @media (min-width: 994px) {
+      .tablet-show  {
+            display:none;
+   }
+ }
+
+ @media (max-width: 994px) {
+      .tablet-hide  {
+            display:none;
+   }
+ }
+
 .image-wrapper-pricing {
   text-align: center; margin: 1em 0;
 
@@ -568,4 +580,13 @@ h1#pricing-header {
   width: 100%;
   height: auto;
   padding-top: 5px;
+}
+
+.bigger-body-font {
+  font-size: 21px;
+}
+
+.big-subtitle-font {
+  font-size: 29px;
+  padding-bottom: 25px;
 }
