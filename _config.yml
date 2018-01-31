@@ -24,8 +24,9 @@ description: We offer phone plans with hands-on support
 # List of links in the navigation bar
 navbar-links:
  # Blog: "blog"
-  Pricing: "pricing"
+  Included Services: "included-services"
   Why Us: "why-us"
+  Pricing: "pricing"
  # Benefits: "benefits"
 #  Benefits: "benefits"
 

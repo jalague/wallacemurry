@@ -70,6 +70,11 @@ section {
   min-height: 650px; 
 }
 
+.services-top {
+  min-height: 650px;
+  padding-top: 40px;
+}
+
 
 .engine-bg{
   background: url("/img/bg6.jpg") no-repeat center;
@@ -488,6 +493,26 @@ h1#pricing-header {
 .outlets img {
   max-width: 100%;
   height: auto;
+}
+
+.full-spread {
+  background-position: center;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.services-header {
+
+  background-image: url("/img/john-and-bobby-services.jpg");
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  background-color: #FFFFFF;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0%);
 }
 
 @media (min-width: 768px) {
