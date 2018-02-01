@@ -16,6 +16,14 @@
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
+       <ul class="nav-buttons navbar-right mobile-hide">
+      
+
+        <li >
+          <b>Call 414-323-8120 or 617-963-0004</b>
+        </li>
+
+      </ul>
       <ul class="nav-buttons navbar-left">
       {% for link in site.navbar-links %}
         {% if link[1].first %}
@@ -36,14 +44,7 @@
         {% endif %}
         {% endfor %} 
       </ul>
-      <ul class="nav-buttons navbar-right">
-      
-<!--
-        <li >
-          <a href='/contact-us/' class='btn btn-warning btn-lg'>Contact Us</a>
-        </li>-->
-
-      </ul>
+     
     </div>
 
 <!-- 	{% if site.avatar and (layout.show-avatar or page.show-avatar) %}
