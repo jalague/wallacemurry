@@ -355,12 +355,11 @@ h1#pricing-header {
   margin-top: 150px;
 }
 
-#pricing-tiers .col-lg-5 {
+.pricing-plan {
   background-color: white;
   border-radius: 10px;
   border-color: gray;
   border-width: 1px;
-  height: 653px;
   overflow: hidden;
 }
 
