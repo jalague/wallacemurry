@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Email Pictures from your iPhone or Android
-tags: phone, pictures, images, sharing, email
+tags: phone pictures images sharing email
 ---
 
 
@@ -16,12 +16,11 @@ tags: phone, pictures, images, sharing, email
 
 ## If you would like to see How to Text a Picture, click here.
 
-## If you have an iPhone, click here.
 
-## Otherwise, if you have an Android, click here.
+## Please click on the type of device you have
 
 [![iPhone](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p2.PNG?raw=true)](#iphone-users:)
-![Android](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p1.PNG?raw=true)
+[![Android](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p1.PNG?raw=true)](#**android-users**:)
 
 ## **IPhone Users:**
 
