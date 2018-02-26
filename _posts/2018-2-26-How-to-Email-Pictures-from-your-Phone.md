@@ -19,8 +19,8 @@ tags: phone pictures images sharing email
 
 ## Please click on the type of device you have
 
-[![iPhone](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p2.PNG?raw=true)](#iphone-user:)
-[![Android](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p1.PNG?raw=true)](android-users)
+[![iPhone](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p2.PNG?raw=true)](#iphone-users:)
+[![Android](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p1.PNG?raw=true)](#android-users)
 
 ## **IPhone Users:**
 
