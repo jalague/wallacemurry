@@ -50,7 +50,7 @@ tags: phone pictures images sharing email
 ![iPhone-Step7](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p9.PNG?raw=true)
 
 ### Step 8: A similar list of apps should appear on your screen as the ones below. Tap the “Message” app with the speech bubble in the green icon (circled in red).
-![iPhone-Step8](https://github.com/jalague/jalague.github.io/blob/master/img/httextlpics/tp10.PNG?raw=true)
+![iPhone-Step8](https://github.com/jalague/jalague.github.io/blob/master/img/httextpics/tp10.PNG?raw=true)
 
 ### Step 9: If you already have a conversation with the person that you would like to send the photos to then you can find and tap on their name. If you do not have a conversation already, then tap the blue square with pencil (circled in red) to create a new message. We will send our image to “Kate”.
 ![iPhone-Step9](https://github.com/jalague/jalague.github.io/blob/master/img/httextpics/tp11.PNG?raw=true)
