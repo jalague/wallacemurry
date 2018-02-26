@@ -20,8 +20,8 @@ tags: phone, pictures, images, sharing, email
 
 ## Otherwise, if you have an Android, click here.
 
-![iPhone](jalague.github.io/img/htemailpic/p1.png)
-![Android](/img/htemailpic/p2.png)
+![iPhone](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p2.PNG?raw=true)
+![Android](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p1.PNG)
 ## **IPhone Users:**
 
 ### Step 1: Unlock the phone and press the Home button located on the bottom of the iPhone to see all your application icons. (If you have not set up your email account on your iPhone please see How To Set up your email on your phone before continuing.)
