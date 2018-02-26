@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Email Pictures from your Phone
+title: How to Text Pictures from your Phone
 tags: phone pictures images sharing email
 ---
 
@@ -12,9 +12,9 @@ tags: phone pictures images sharing email
 
 
 
-# **How to Email Pictures from your iPhone or Android**
+# **How to Text Pictures from your iPhone or Android**
 
-## If you would like to see How to Text a Picture, [click here](https://www.wallacemurry.com/2018-2-26-How-to-Text-Pictures-from-your-Phone).
+## If you would like to see How to Email a Picture, [click here](https://www.wallacemurry.com/2018-2-26-How-to-Email-Pictures-from-your-Phone).
 
 
 ## Please click on the type of device you have
@@ -49,11 +49,14 @@ tags: phone pictures images sharing email
 ### Step 7: Once you have all the images you would like to send press the box with an arrow pointing up in the bottom left corner (circled in red).
 ![iPhone-Step7](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p9.PNG?raw=true)
 
-### Step 8: A similar list of apps should appear on your screen as the ones below. Tap the “Mail” app with the envelope in the icon (circled in red).
-![iPhone-Step8](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p10.PNG?raw=true)
+### Step 8: A similar list of apps should appear on your screen as the ones below. Tap the “Message” app with the speech bubble in the green icon (circled in red).
+![iPhone-Step8](https://github.com/jalague/jalague.github.io/blob/master/img/httextlpics/tp10.PNG?raw=true)
 
-### Step 9: We are almost finished! Enter the email address you would like to send the picture to by taping the blank space next to “To:” and then typing using the keypad. Add a Subject and Body to your email in a similar fashion. Once you’re ready to send just tap the “Send” button in the top right corner and you are finished!
-![iPhone-Step9](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p11.PNG?raw=true)
+### Step 9: If you already have a conversation with the person that you would like to send the photos to then you can find and tap on their name. If you do not have a conversation already, then tap the blue square with pencil (circled in red) to create a new message. We will send our image to “Kate”.
+![iPhone-Step9](https://github.com/jalague/jalague.github.io/blob/master/img/httextpics/tp11.PNG?raw=true)
+
+### Step 10: We are almost finished! Just add any text that you would like to go with the image by typing out your message (in this case “Beautiful!”). When you have finished typing your message press the blue arrow near the image (circled in red) and your image and message will be sent!
+![iPhone-Step9](https://github.com/jalague/jalague.github.io/blob/master/img/httextpics/tp12.PNG?raw=true)
 
 
 
@@ -68,15 +71,16 @@ tags: phone pictures images sharing email
 ### Step 3: Find the image or images you would like to send by swiping up and down. Once you have found the image(s) press and hold on the image until a blue check mark appears on the image. Once one image is selected you can select more by simply tapping them (no need to hold down on the other images).
 ![Android-Step1](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p14.PNG?raw=true)
 
-### Step 4: Once you have selected all the images you would like press the icon with three connected dots in the top right corner (circled in red).
-![Android-Step1](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p15.PNG?raw=true)
+### Step 4: Once you have selected all the images you would like, press the icon with three connected dots in the top right corner (circled in red).
+![Android-Step1](https://github.com/jalague/jalague.github.io/blob/master/img/httextpics/tp15.PNG?raw=true)
 
-### Step 6: Now you can compose your email. First tap the blank space to the right of “To” and enter the email address(es) you would like to send the images to. Add a Subject and a Body of the email similarly.
-![Android-Step1](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p16.PNG?raw=true)
+### Step 6: (Your specific device may look slightly different, but should be similar). Now we can either select an existing conversation by tapping the Contact name or create a new conversation to send the photos to. We will choose “New Message” for this demonstration.
+![Android-Step1](https://github.com/jalague/jalague.github.io/blob/master/img/httextpics/tp16.PNG?raw=true)
 
-### Step 7: We are almost finished! Just tap the arrow in the upper right corner (circled in green) and your email will be sent!
-![Android-Step1](https://github.com/jalague/jalague.github.io/blob/master/img/htemailpic/p17.PNG?raw=true)
+### Step 7: Now tap on the Contact Name (such as John) you would like to send the images to. Alternatively, you can type a phone number directly into the space beside the “To:”, if it is to a number that is not in your phone as a contact. You can also tap multiple contacts to send the image(s) as a group message to multiple phone numbers at one time.
+![Android-Step1](https://github.com/jalague/jalague.github.io/blob/master/img/httextpics/tp17.PNG?raw=true)
 
-
+### Step 8: We are almost finished! If you would like to add text to the message you may tap the white space to add text (just like a normal text message). Once you have completed your message simply tap the arrow (circled in red) and the image will be sent!
+![Android-Step1](https://github.com/jalague/jalague.github.io/blob/master/img/httextpics/tp17.PNG?raw=true)
 
 # You are all Done! As always, feel free to call with any questions/concerns/confusion!
