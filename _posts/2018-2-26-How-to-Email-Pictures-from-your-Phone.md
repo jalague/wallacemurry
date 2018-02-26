@@ -7,23 +7,23 @@ tags: phone, pictures, images, sharing, email
 
 # **How to Email Pictures from your iPhone or Android**
 
-##If you would like to see How to Text a Picture, click here.
+## If you would like to see How to Text a Picture, click here.
 
 ## If you have an iPhone, click here.
 
 ## Otherwise, if you have an Android, click here.
 
-![iPhone](https://github.com/jalague/jalague.github.io/img/htemailpic/p1.png)
+![iPhone](jalague.github.io/img/htemailpic/p1.png)
 ![Android](/img/htemailpic/p2.png)
 ## **IPhone Users:**
 
 ### Step 1: Unlock the phone and press the Home button located on the bottom of the iPhone to see all your application icons. (If you have not set up your email account on your iPhone please see How To Set up your email on your phone before continuing.)
 
-![iPhone-Step1](/img/htemailpic/p3.png)
+![iPhone-Step1](tree/master/img/htemailpic/p3.png)
 
 
 ### Step 2: Locate the Photos app (circled in red) and press it with your finger.
-![iPhone-Step2](/img/htemailpic/p4.png)
+![iPhone-Step2](https://github.com/jalague.github.io/img/htemailpic/p4.png)
 
 
 ### Step 3: Find the Photos icon on the bottom left (circled in red) and make sure it is selected. If it is selected it will be blue. If the icon is not blue then press it with your finger to select it.
