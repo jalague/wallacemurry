@@ -13,7 +13,7 @@ tags: phone, pictures, images, sharing, email
 
 ## Otherwise, if you have an Android, click here.
 
-![iPhone](/img/htemailpic/p1.png)
+![iPhone](https://github.com/jalague/jalague.github.io/img/htemailpic/p1.png)
 ![Android](/img/htemailpic/p2.png)
 ## **IPhone Users:**
 
