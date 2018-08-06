@@ -126,7 +126,10 @@ Sometimes there will be, it depends on the carrier. Some providers charge you fo
 
 Feel free to reach out to us if you have any more questions about switching to a new provider!
 
-John LaGue
+
+
+John LaGue,
+
 Community Phone
 
 8/6/2018
