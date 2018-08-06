@@ -14,9 +14,9 @@ With such large numbers of consumers finding new cellular plans every month, you
 
 ## Overview:
 
-[Contracts and Payment Plans](#are-you)
+[Contracts and Payment Plans](#Are-you-on-a-contract-or-payment=plan?)
 
-[Unlocking Your Device](#do-you)
+[Unlocking Your Device](#do-i-get-a-new-device?)
 
 [Information You Will Need Handy](#information-you)
 
@@ -26,13 +26,13 @@ With such large numbers of consumers finding new cellular plans every month, you
 
 [Common Questions and Concerns](#common)
 
-## **Are you** on a contract or payment plan?
+## Are you on a contract or payment plan?
 
 The first thing you should take into consideration is whether you are currently under contract. You don’t want to go hunting for a new provider just to find out that you still owe your old carrier thousands.
 
 Fortunately, none of the four major carriers offer outright wireless contracts anymore. So it’s very unlikely that you are under a contract if you only have wireless service through the provider. Yet, if you currently have a “bundle” package (wireless, TV, home phone) then you may have a special pricing or contract that would be affected if you change the wireless service. While this is an unlikely scenario you want to always be sure to call your provider to check what your current terms are with them before switching. Pro Tip: whenever I call a service provider I record the conversations (whether over a phone call or an online chat) in case there are any discrepancies after making the change, but make sure you inform the representative that her or she is being recorded.
 
-On the other hand, even though you may not have an outright contract, if you’re like most Americans then you probably do have a phone payment plan. Phone Payment plans are phone carriers new way of enacting “contracts.” Usually you are locked into 24 month payment timeline. If you try to switch cellular networks before the 24 months is complete you may encounter extra fees or you will have to pay the rest of the balance on the phone plan. That being said you can always “port-out” your number at ANY time. Porting out a number means you are switching your personal phone number from one carrier to another. “Port” is an internal term used when your new carrier makes a specific request to your old carrier to release your phone number. It’s actually mandated by the FCC that you can always port your number out whether or not you still owe money to the company. Of course, just because your number has been switched doesn’t mean you don’t have to pay the old carrier. If you never pay the outstanding balance it will end up hurting your credit score in a big way.
+On the other hand, even though you may not have an outright contract, if you’re like most Americans then you probably do have a phone payment plan. Phone Payment plans are phone carriers new way of enacting “contracts.” Usually you are locked into 24 month payment timeline. If you try to switch cellular networks before the 24 months is complete you may encounter extra fees or you will have to pay the rest of the balance on the phone plan. That being said you can always “port-out” your number at ANY time. Porting out a number means you are switching your personal phone number from one carrier to another. “Port” is an internal term used when your new carrier makes a specific request to your old carrier to release your phone number. It’s actually [mandated by the FCC that you can always port your number out](https://www.fcc.gov/consumers/guides/porting-keeping-your-phone-number-when-you-change-providers) whether or not you still owe money to the company. Of course, just because your number has been switched doesn’t mean you don’t have to pay the old carrier. If you never pay the outstanding balance it will end up hurting your credit score in a big way.
 
 Note: in an effort to scoop up their competitors losses, some phone companies will cover early termination fees or pay off the rest of your phone plan if you switch to their service. If you have a specific cellular network to which you would like to switch, call the company and see if they will cover the cost of switching.
 
@@ -42,17 +42,17 @@ Most carriers, prepaid or postpaid, have some sort of device locking policy, whi
 
 ### **How to** unlock your device:
 
-The process for unlocking your phone will vary depending on your phone company. AT&T always locks their devices, but they also offer an online unlocking portal to unlock your device yourself. T-mobile’s unlock policy can be found here, and Sprint’s policy is here. If you are on a prepaid service like Simple or Boost mobile then your device will likely have to have been active for at least 12 months on their service before you could use it elsewhere. Verizon does not SIM-lock any of their 4G phones, so you shouldn’t have to do anything if you have had their service for more than 30 days.
+The process for unlocking your phone will vary depending on your phone company. AT&T always locks their devices, but they also offer an [online unlocking portal](https://www.att.com/deviceunlock/) to unlock your device yourself. T-mobile’s unlock policy can be found [here](https://support.t-mobile.com/docs/DOC-1588), and Sprint’s policy is [here](https://www.sprint.com/en/legal/unlocking-your-sprint-device.html). If you are on a prepaid service like Simple or Boost mobile then your device will likely have to have been active for at least 12 months on their service before you could use it elsewhere. Verizon does not SIM-lock any of their 4G phones, so you shouldn’t have to do anything if you have had their service for more than 30 days.
 
 Also, if you did still owe money on a phone then you most likely will not be able to unlock it (unless you are on Verizon because they never lock their phones).
 
-It’s important to note that even if you have an unlocked device it still may not work on all cellular networks. This is largely due to the difference in radio technology between carriers. For example, Verizon and Sprint use CDMA technology while AT&T and T-mobile use GSM technology. That means that if you have a Verizon phone it is more likely to work on Sprint than on T-mobile or AT&T (vice versa). But, there are still differences within CDMA between Sprint and Verizon and also AT&T . That being said, most new, unlocked, iPhones and new Android phones will be compatible with all carriers (use this tool to check your compatibility). Just be sure to double check that your phone model will work on your new network!
+It’s important to note that even if you have an unlocked device it still may not work on all cellular networks. This is largely due to the difference in radio technology between carriers. For example, Verizon and Sprint use CDMA technology while AT&T and T-mobile use GSM technology. That means that if you have a Verizon phone it is more likely to work on Sprint than on T-mobile or AT&T (vice versa). But, there are still differences within CDMA between Sprint and Verizon and also AT&T . That being said, most new, unlocked, iPhones and new Android phones will be compatible with all carriers (use this [tool](https://www.whistleout.com/CellPhones/Guides/BYO-phones-how-to-take-your-phone-to-another-carrier) to check your compatibility). Just be sure to double check that your phone model will work on your new network!
 
-### **Do I** get a new device?
+### Do I get a new device?
 
 Ok so you found out your phone won’t work on the new carrier for whatever reason - maybe it’s locked or simply not compatible with the network. What do you do next?
 
-The least expensive option is definitely to buy a refurbished phone online. There are sites like Swappa that are specifically for buying/selling phones so it is easy to see if the phone will be compatible with your new carrier or you can always search on Amazon, eBay, and any of your other favorite ecommerce sites.
+The least expensive option is definitely to buy a refurbished phone online. There are sites like [Swappa](https://swappa.com/) that are specifically for buying/selling phones so it is easy to see if the phone will be compatible with your new carrier or you can always search on Amazon, eBay, and any of your other favorite ecommerce sites.
 
 If you don’t want refurbished or don’t have the capital to pay for the phone upfront then your new carrier most likely offers a variety of phone leasing options that will allow you to pay off a phone as you go (Community Phone offers phones starting at $5/month!).
 
@@ -96,9 +96,9 @@ Find the right cellular network for you
 
 Make the Switch!
 
-# **Common** Questions and Concerns
+# Common Questions and Concerns
 
-_*Will I lose all my stuff on my phone?*_
+*Will I lose all my stuff on my phone?*
 
 No (except you will lose your voicemails)! If you are keeping your phone (or getting a new one) you should be able to move all your important things over easily. The one thing that you will certainly lose are your voicemails. Your voicemail box is set up by your current provider and gets wiped when you switch off of their service. If you have an iPhone and are keeping it or going to a new iPhone, make sure you Back-Up your phone’s data on iCloud. Here are the 5 steps to do so (even though your phone should automatically back-up)
 
@@ -112,15 +112,15 @@ Make sure you are on a Wi-Fi connection and tap Back Up Now.
 
 Check your backup by tapping Settings > iCloud > Storage > Manage Storage, and then select your device.
 
-If you use Android, then you can use Google Drive to backup your phone too (this won’t save everything though). To find your most recent backup on Google Drive go to the Drive app, then Menu, then Backups. If you don’t see any then go to your phone’s settings and make sure Back ups are turned on.
+If you use Android, then you can use [Google Drive to backup](https://support.google.com/drive/answer/6305834?co=GENIE.Platform%3DAndroid&hl=en) your phone too (this won’t save everything though). To find your most recent backup on Google Drive go to the Drive app, then Menu, then Backups. If you don’t see any then go to your phone’s settings and make sure Back ups are turned on.
 
-If you’re moving everything to a new phone then you can easily move everything from the old phone to the new one. If it is an iPhone just restore the old phone’s backup onto the new phone. If you are going from a Samsung to another Samsung then you can use Samsung Smart Switch to move all your stuff over. If you are going from an LG to another LG phone there is a similar switching tool in your phone’s settings. You can also use the app “Copy My Data” found in the App Store or the Google Play Store to transfer contacts, pictures, and videos between any two phones.
+If you’re moving everything to a new phone then you can easily move everything from the old phone to the new one. If it is an iPhone just [restore the old phone’s backup onto the new phone](https://support.apple.com/kb/ph12521?locale=en_US). If you are going from a Samsung to another Samsung then you can use Samsung Smart Switch to move all your stuff over. If you are going from an LG to another LG phone there is a similar switching tool in your phone’s settings. You can also use the app “Copy My Data” found in the App Store or the Google Play Store to transfer contacts, pictures, and videos between any two phones.
 
-*_Can I keep my phone number?_*
+*Can I keep my phone number?*
 
 Yes! You will be able to keep your number, there are exceptions if you are coming from an international carrier.
 
-*_Will there be hidden fees?_*
+*Will there be hidden fees?*
 
 Sometimes there will be, it depends on the carrier. Some providers charge you for SIM cards, an activation fee, and all other sorts of things. So make sure you understand the full cost of switching before it’s too late by talking with the new provider (and make sure you get what they say in writing or on recording so they can’t change anything on you at the last minute).
 
