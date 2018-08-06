@@ -6,25 +6,27 @@ tags: [cell phone plans, community phone, mobile carriers]
 
 # How to switch phone carriers
 
-Every month 6.5 million people switch phone carriers in the United States according to a 2017 report by the FCC. Verizon loses about 1.3%of their customers (1,885,000 people), AT&T loses 1.7%  (2,278,000 people) , T-mobile is 1.7% too (1,207,000), and Sprint’s losses are 2.2% (1,298,000 subscribers). This doesn’t even include all the smaller virtual or regional carriers out there (Community Phone has had 0 subscribers leave as of this writing). With millions moving every month it would make sense that companies would make it as easy as possible to change cellular plans. Why then does it seem like such a hassle to switch cell phone carriers?
+Every month 6.5 million people switch phone carriers in the United States according to a [2017 report by the FCC](https://www.fcc.gov/document/fcc-releases-20th-wireless-competition-report-0). Verizon loses about 1.3%of their customers (1,885,000 people), AT&T loses 1.7%  (2,278,000 people) , T-mobile is 1.7% too (1,207,000), and Sprint’s losses are 2.2% (1,298,000 subscribers). This doesn’t even include all the smaller virtual or regional carriers out there (Community Phone has had 0 subscribers leave as of this writing). With millions moving every month it would make sense that companies would make it as easy as possible to change cellular plans. Why then does it seem like such a hassle to switch cell phone carriers?
 
 It’s not surprising why people switch carriers. Cell phone companies are constantly offering new shiny deals luring people to their services. These large companies are incessantly focused on acquiring new customers because they are losing customers by the millions each month. The irony is that since cellular companies are so focused on getting new customers, via gimmicks and marketing “deals”, the big carriers focus very little on providing amazing service to the customers they do have. This leads to an endless loop of constantly getting new customers because their neglect of current customers leads to such high monthly losses.
 
-With such large numbers of consumers finding new cellular plans every month, you would think the “Big Four” carriers would streamline the switching processes so as to not waste their own time. Yet, they definitely do NOT make it easy to switch to a new provider. They put up every possible roadblock in your way to prevent you from leaving (when it was their own neglect that caused the switch in the first place). See our blog post about one of Community Phone’s members having to take $4050 in cash to a local AT&T store as the only way to get away from the company. That’s why Community Phone has provided a comprehensive guide on all the necessary steps, issues, and questions you may encounter while beginning your search for a new cell phone carrier.
+With such large numbers of consumers finding new cellular plans every month, you would think the “Big Four” carriers would streamline the switching processes so as to not waste their own time. Yet, they definitely do NOT make it easy to switch to a new provider. They put up every possible roadblock in your way to prevent you from leaving (when it was their own neglect that caused the switch in the first place). See our [blog post about one of Community Phone’s members having to take $4050 in cash to a local AT&T store]() as the only way to get away from the company. That’s why Community Phone has provided a comprehensive guide on all the necessary steps, issues, and questions you may encounter while beginning your search for a new cell phone carrier.
 
 ## Overview:
 
-[Contracts and Payment Plans](#are-you-on-a-contract-or-a-payment-plan?)
+[Contracts and Payment Plans](#are-you)
 
-[Unlocking Your Device](#Do-you-want-to-keep-your-current-phone-or-get-a-new-one?)
+[Unlocking Your Device](#do-you)
 
-[Information You Will Need Handy]()
+[Information You Will Need Handy](#information-you)
 
-[Deciding Where to Go]()
+[Deciding Where to Go](#ok-so)
 
-[Common Questions and Concerns]()
+[Make the Switch!](#make-the)
 
-## **Are you on a contract or payment plan?**
+[Common Questions and Concerns](#common)
+
+## **Are you** on a contract or payment plan?
 
 The first thing you should take into consideration is whether you are currently under contract. You don’t want to go hunting for a new provider just to find out that you still owe your old carrier thousands.
 
@@ -34,10 +36,11 @@ On the other hand, even though you may not have an outright contract, if you’r
 
 Note: in an effort to scoop up their competitors losses, some phone companies will cover early termination fees or pay off the rest of your phone plan if you switch to their service. If you have a specific cellular network to which you would like to switch, call the company and see if they will cover the cost of switching.
 
-## **Do you want to keep your current phone or get a new one?**
+## **Do you** want to keep your current phone or get a new one?
 
 Most carriers, prepaid or postpaid, have some sort of device locking policy, which means your phone may be locked to your current carriers network. So you always want to check if your device is unlocked or eligible to be unlocked before you assume you can take it with you to a new carrier. It’s also important to note that there are TWO TYPES OF DEVICE LOCKS. The first type is a SIM lock. This means your phone will only work with SIMs from your current carrier, but it also means that if it is possible to “unlock” the phone - if it is eligible according to your current network’s policies. Call your provider or search their “unlocking policies” online to see if your device is eligible to be unlocked and how to go about unlocking it. The other time of lock is called a manufacturer lock. This means that your cell phone will only ever work on the carrier you purchased for because it is locked at a hardware level. This means that the phone was manufactured to work specifically on your current carrier’s radio bands and cannot be unlocked.
-## How to unlock your device:
+
+### **How to** unlock your device:
 
 The process for unlocking your phone will vary depending on your phone company. AT&T always locks their devices, but they also offer an online unlocking portal to unlock your device yourself. T-mobile’s unlock policy can be found here, and Sprint’s policy is here. If you are on a prepaid service like Simple or Boost mobile then your device will likely have to have been active for at least 12 months on their service before you could use it elsewhere. Verizon does not SIM-lock any of their 4G phones, so you shouldn’t have to do anything if you have had their service for more than 30 days.
 
@@ -45,7 +48,7 @@ Also, if you did still owe money on a phone then you most likely will not be abl
 
 It’s important to note that even if you have an unlocked device it still may not work on all cellular networks. This is largely due to the difference in radio technology between carriers. For example, Verizon and Sprint use CDMA technology while AT&T and T-mobile use GSM technology. That means that if you have a Verizon phone it is more likely to work on Sprint than on T-mobile or AT&T (vice versa). But, there are still differences within CDMA between Sprint and Verizon and also AT&T . That being said, most new, unlocked, iPhones and new Android phones will be compatible with all carriers (use this tool to check your compatibility). Just be sure to double check that your phone model will work on your new network!
 
-## Do I get a new device?
+### **Do I** get a new device?
 
 Ok so you found out your phone won’t work on the new carrier for whatever reason - maybe it’s locked or simply not compatible with the network. What do you do next?
 
@@ -53,7 +56,7 @@ The least expensive option is definitely to buy a refurbished phone online. Ther
 
 If you don’t want refurbished or don’t have the capital to pay for the phone upfront then your new carrier most likely offers a variety of phone leasing options that will allow you to pay off a phone as you go (Community Phone offers phones starting at $5/month!).
 
-## Information you will need to unlock your phone and transfer your number
+## **Information you** will need to unlock your phone and transfer your number
 
 For security purposes all cell phone carriers require you to provide your current Account number, your current Account PIN/Passcode (this is not necessarily the same as the password you use to login to your account online), and of your current phone number when trying to “port” or transfer your number to a new carrier. MVNO’s and smaller carriers may also ask for the Account holder’s name and billing address on your current cell phone account before you can port your number to their service. This is information is used to ensure that no one can “steal” your phone number from you.
 
@@ -67,17 +70,17 @@ If you’re bringing a phone to your new provider then you might need some infor
 
 Write down the account number, pin, and IMEI and keep them someplace safe.
 
-## Ok so you have all your information and the phone is unlocked. What now?
+## **Ok so** you have all your information and the phone is unlocked. What now?
 
 Now you can shop around! There are pros and cons to all cell phone providers. You have to ask yourself what you value most in cellular network. Is it the lowest price, best coverage, best customer service, best new user deal, most variety of phones, the one that will be the least hassle, a company that has a social mission, or something different? Each characteristic has a unique provider that will excel at that service. Virtual MVNO’s will usually have the lowest prices. Large carriers or MVNO’s that use multiple carriers (like Project Fi) will have the best coverage. The best customer service would come from a local, community based, phone company (not that I am biased or anything). The company with the least hassle would probably come right to your home to do the switch for you (sounds a lot like Community Phone).
 
 Clearly, it’s easy to get overwhelmed by all the options when you’re searching for a new carrier so be sure to select 1 or 2 traits that you really care about and search for companies that align with those traits. Feel free to call 617-963-0004 or chat with Community Phone online to discuss the many different options. Even if you’re not interested in switching to Community Phone they are always willing to help people find a provider that is a good fit.
 
-# Make the switch!
+# **Make the** switch!
 
 So you’ve got your account information, a compatible phone, and a new provider all selected, now what? Don’t deactivate your current account before switching! If you deactivate your current service you will most likely lose your number! Otherwise you’ll most likely need to get a new SIM card, which the company should provide for free. If you are going for a virtual provider (no stores) then they will most likely ship you a sim card and have you call them to complete activation. If you are going with a retail store based cellular provider then you can also just go to a store and they will provide the SIM and go through the whole activation for you. Better yet, if you go with Community Phone they will come right to your home with the SIM and do the activation at your convenience while you relax in your home. Whichever route you chose, the process for switching the number over and getting the phone set-up/activated will most likely take about an hour. If you’re bringing your own compatible phone then the process can take as little as 20 minutes though. Either way, block out sometime for yourself and make the switch!
 
-# Here are all the steps we went over
+# **Here are** all the steps we went over
 
 See if you can afford to switch off your current provider
 
@@ -93,9 +96,9 @@ Find the right cellular network for you
 
 Make the Switch!
 
-# Common Questions and Concerns
+# **Common** Questions and Concerns
 
-*_Will I lose all my stuff on my phone?_*
+_*Will I lose all my stuff on my phone?*_
 
 No (except you will lose your voicemails)! If you are keeping your phone (or getting a new one) you should be able to move all your important things over easily. The one thing that you will certainly lose are your voicemails. Your voicemail box is set up by your current provider and gets wiped when you switch off of their service. If you have an iPhone and are keeping it or going to a new iPhone, make sure you Back-Up your phone’s data on iCloud. Here are the 5 steps to do so (even though your phone should automatically back-up)
 
