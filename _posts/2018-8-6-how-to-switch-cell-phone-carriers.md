@@ -4,7 +4,7 @@ title: How to Switch Cell Phone Carriers
 tags: [cell phone plans, community phone, mobile carriers]
 ---
 
-# How to switch phone carriers
+# How to Switch Phone Carriers
 
 Every month 6.5 million people switch phone carriers in the United States according to a [2017 report by the FCC](https://www.fcc.gov/document/fcc-releases-20th-wireless-competition-report-0). Verizon loses about 1.3%of their customers (1,885,000 people), AT&T loses 1.7%  (2,278,000 people) , T-mobile is 1.7% too (1,207,000), and Sprint’s losses are 2.2% (1,298,000 subscribers). This doesn’t even include all the smaller virtual or regional carriers out there (Community Phone has had 0 subscribers leave as of this writing). With millions moving every month it would make sense that companies would make it as easy as possible to change cellular plans. Why then does it seem like such a hassle to switch cell phone carriers?
 
