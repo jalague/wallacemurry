@@ -80,7 +80,7 @@ Clearly, it’s easy to get overwhelmed by all the options when you’re searchi
 
 So you’ve got your account information, a compatible phone, and a new provider all selected, now what? Don’t deactivate your current account before switching! If you deactivate your current service you will most likely lose your number! Otherwise you’ll most likely need to get a new SIM card, which the company should provide for free. If you are going for a virtual provider (no stores) then they will most likely ship you a sim card and have you call them to complete activation. If you are going with a retail store based cellular provider then you can also just go to a store and they will provide the SIM and go through the whole activation for you. Better yet, if you go with Community Phone they will come right to your home with the SIM and do the activation at your convenience while you relax in your home. Whichever route you chose, the process for switching the number over and getting the phone set-up/activated will most likely take about an hour. If you’re bringing your own compatible phone then the process can take as little as 20 minutes though. Either way, block out sometime for yourself and make the switch!
 
-# Here are all the steps we went over
+## Here are all the steps we went over
 
 See if you can afford to switch off your current provider
 
@@ -96,7 +96,7 @@ Find the right cellular network for you
 
 Make the Switch!
 
-# Common Questions and Concerns
+## Common Questions and Concerns
 
 *Will I lose all my stuff on my phone?*
 
