@@ -15,25 +15,25 @@ The large cell phone companies' neglect can become pretty horrific. The big four
 
 ### Overview:
 
-[Formal Complaints](#formal-complaints)
+#### [Formal Complaints](#formal-complaints)
 
 [How to write a complaint](#how-to-write-a-complaint)
 
-	[FCC](#fcc-complaint-filing)
+[FCC](#fcc-complaint-filing)
 
-	[State Attorney General](#state-attorney-general-office)
+[State Attorney General](#state-attorney-general-office)
 
-	[Public Utility Commission](#state-public-utility-commission)
+[Public Utility Commission](#state-public-utility-commission)
 
-    [Local Municipality](#local-municipality)
+[Local Municipality](#local-municipality)
 
-[Informal Complaints]()
+#### [Informal Complaints](#informal-complaints)
 
-    [Better Business Bureau]() 	
+[Better Business Bureau](#better-business-bureau) 	
 
-    [Consumer Affairs]()   
+[Consumer Affairs](#consumeraffairs)   
 
-    [Facebook Complaints]()
+[Facebook Complaints](#facebook-post)
 
 
 ## Formal Complaints
