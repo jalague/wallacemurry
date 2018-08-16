@@ -10,5 +10,5 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 Listen our audio!
-<audio controls> <source src="community_phone.mp3" type="audio/mpeg">Your browser does not support the audio element.
+<audio controls> <source src="community_phone.mp3" type="audio/mp3">Your browser does not support the audio element.
 </audio>
